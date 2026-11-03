@@ -1,59 +1,58 @@
 # Simon Says – Memory Game
 
-A browser-based memory game built using HTML, CSS and JavaScript. The game challenges players to remember and reproduce an increasingly long sequence of colored buttons.
+This is a simple memory game I built using HTML, CSS and JavaScript. The game tests how well a player can remember a sequence of colors and repeat it in the correct order. As the player moves to the next level, the sequence becomes longer.
 
-## 🚀 Tech Stack
+## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
-## ✨ Features
+## Features
 
-- Random color sequence generation
-- Interactive colored buttons with visual flash effects
-- Level-based gameplay with increasing sequence length
-- User input validation to check sequence accuracy
-- Game-over detection with restart functionality
-- Highest score display
+- Generates random color sequences.
+- Shows the sequence through button flash effects.
+- Checks whether the player follows the correct sequence.
+- Increases the level as the player progresses.
+- Ends the game when an incorrect sequence is entered.
 
-## 🎮 How to Play
+## How to Play
 
-1. Open the game in your browser.
-2. Press any keyboard key to start.
-3. Watch the colored button flash.
-4. Click the buttons in the same sequence.
-5. Complete the sequence to advance to the next level.
-6. Continue as the sequence gets longer.
-7. A wrong selection ends the current game.
+1. Open `simon.html` in your browser.
+2. Press any key to start the game.
+3. Watch the color sequence carefully.
+4. Click the buttons in the same order.
+5. Complete each level to move to the next one.
+6. Try to remember the longest sequence possible.
 
-## 📁 Project Structure
+## Project Files
 
 ```text
 simson/
+│
 ├── simon.html
 ├── simon.css
 ├── simon.js
 └── README.md
 ```
 
-## ⚙️ Run Locally
+## Run the Project
 
-1. Clone the repository:
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/Mahaboobbasha3285/simson.git
    ```
 
-2. Open the project folder.
+2. Open the downloaded project folder.
 3. Open `simon.html` in your browser.
 
-## 📌 Project Status
+## What I Learned
 
-Work in Progress – Additional improvements and testing are ongoing.
+While building this project, I practised JavaScript event handling, DOM manipulation, arrays, random sequence generation and game logic.
 
-## 👨‍💻 Author
+## Author
 
 **Mahaboob Basha**
 
-GitHub: [Mahaboobbasha3285](https://github.com/Mahaboobbasha3285)
+[GitHub Profile](https://github.com/Mahaboobbasha3285)
